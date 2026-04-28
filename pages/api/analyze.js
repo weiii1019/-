@@ -8,7 +8,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Company name required" });
   }
 
-  const API_KEY = "sk-ant-api03-WQ0DBognqFgAYAubXLjUtk1bYq2fHTFgaJu7V6JutjC6ZNUw7Ac9aTR3VtCu0rx1jMuns2sFLNM3Q1b1KiEhWg-hckdhAAA";
+  const API_KEY = "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";
 
   try {
     const response = await fetch("https://api.anthropic.com/v1/messages", {
